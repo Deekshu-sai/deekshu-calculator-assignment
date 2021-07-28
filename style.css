@@ -1,0 +1,32 @@
+input[type="button"] {
+  background-color: black;
+  color: white;
+  border: solid black 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+input[type="text"] {
+  background-color: palegreen;
+  border: 10px;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 20px;
+  text-align: left;
+}
+table {
+  border-color: none;
+  border-collapse: separate;
+  border-spacing: 15px;
+  border-radius: 20px;
+  padding: 8px;
+  padding-top: 50px;
+  margin: 30px;
+  background-color: gray;
+}
+input[type="button"]:hover {
+  background-color: white;
+  color: black;
+  border: black 10px;
+  padding: 10px;
+}
